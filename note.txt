@@ -1,0 +1,27 @@
+1. 安装 node
+2. npm 全局模式安装常用模块，这些模块安装后保存在 node 的 node_modules 文件夹内
+	sudo npm install -g grunt-cli
+	sudo npm install -g grunt
+	sudo npm install -g grunt-init
+	sudo npm install -g express
+
+3. 安装 git
+4. 创建本地 git 库
+	4.1 创建 node 项目管理文件夹 nodeApp 管理多个项目
+	4.2 在 nodeApp 文件夹内创建 git 库使 nodeApp 文件夹成为 git 工作树
+		cd nodeApp 
+		git init
+		git config --global user.name "ecalf"
+		git config --global user.email "727000110@qq.com
+
+	4.3 在 nodeApp 创建项目 restDrink 并创建保存 readme 文件
+		mkdir restDrink
+		cd restDrink
+		nano readme.md
+
+	4.4 将当前目录所有文件添加到 git 库并提交到 master 主干
+		git add .
+		git commit -m 'new project of restDrink is created!'
+
+	4.5 创建工作分支 local
+		
