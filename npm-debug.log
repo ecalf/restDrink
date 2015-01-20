@@ -1,0 +1,176 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'grunt-contrib-jshint' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'grunt-contrib-jshint', null ]
+5 verbose cache add name=undefined spec="grunt-contrib-jshint" args=["grunt-contrib-jshint",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'grunt-contrib-jshint',
+6 verbose parsed url   path: 'grunt-contrib-jshint',
+6 verbose parsed url   href: 'grunt-contrib-jshint' }
+7 silly lockFile 0324b488-grunt-contrib-jshint grunt-contrib-jshint
+8 verbose lock grunt-contrib-jshint /Users/PA/.npm/0324b488-grunt-contrib-jshint.lock
+9 silly lockFile 0324b488-grunt-contrib-jshint grunt-contrib-jshint
+10 silly lockFile 0324b488-grunt-contrib-jshint grunt-contrib-jshint
+11 verbose addNamed [ 'grunt-contrib-jshint', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile c28ce841-grunt-contrib-jshint grunt-contrib-jshint@
+14 verbose lock grunt-contrib-jshint@ /Users/PA/.npm/c28ce841-grunt-contrib-jshint.lock
+15 silly addNameRange { name: 'grunt-contrib-jshint', range: '*', hasData: false }
+16 verbose request where is /grunt-contrib-jshint
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 6066cd376d7fa002
+19 verbose url raw /grunt-contrib-jshint
+20 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-jshint' ]
+21 verbose url resolved https://registry.npmjs.org/grunt-contrib-jshint
+22 verbose request where is https://registry.npmjs.org/grunt-contrib-jshint
+23 info trying registry request attempt 1 at 18:15:39
+24 http GET https://registry.npmjs.org/grunt-contrib-jshint
+25 http 200 https://registry.npmjs.org/grunt-contrib-jshint
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Tue, 06 Jan 2015 10:15:49 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"E1XTV33V2ZPE76ZX8VCZ9ZPZB"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '51829',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '57',
+26 silly registry.get     'x-served-by': 'cache-ty68-TYO',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '4',
+26 silly registry.get     'x-timer': 'S1420539349.251659,VS0,VE0',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'grunt-contrib-jshint', range: '*', hasData: true }
+28 silly addNameRange versions [ 'grunt-contrib-jshint',
+28 silly addNameRange   [ '0.1.0',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.4.1',
+28 silly addNameRange     '0.4.2',
+28 silly addNameRange     '0.4.3',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.5.1',
+28 silly addNameRange     '0.5.2',
+28 silly addNameRange     '0.5.3',
+28 silly addNameRange     '0.5.4',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '0.6.2',
+28 silly addNameRange     '0.6.3',
+28 silly addNameRange     '0.6.4',
+28 silly addNameRange     '0.6.5',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.7.1',
+28 silly addNameRange     '0.7.2',
+28 silly addNameRange     '0.8.0',
+28 silly addNameRange     '0.9.0',
+28 silly addNameRange     '0.9.1',
+28 silly addNameRange     '0.9.2',
+28 silly addNameRange     '0.10.0',
+28 silly addNameRange     '0.1.1-rc5',
+28 silly addNameRange     '0.1.1-rc6' ] ]
+29 verbose addNamed [ 'grunt-contrib-jshint', '0.10.0' ]
+30 verbose addNamed [ '0.10.0', '0.10.0' ]
+31 silly lockFile af8d4102-grunt-contrib-jshint-0-10-0 grunt-contrib-jshint@0.10.0
+32 verbose lock grunt-contrib-jshint@0.10.0 /Users/PA/.npm/af8d4102-grunt-contrib-jshint-0-10-0.lock
+33 silly lockFile 97fbf99a--grunt-contrib-jshint-0-10-0-tgz https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz
+34 verbose lock https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz /Users/PA/.npm/97fbf99a--grunt-contrib-jshint-0-10-0-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz',
+35 verbose addRemoteTarball   '57ebccca87e8f327af6645d8a3c586d4845e4d81' ]
+36 info retry fetch attempt 1 at 18:15:51
+37 verbose fetch to= /var/folders/nd/hpccsjn96r37j8gjmwpzfs_r0000gn/T/npm-12802-A1BVxZKy/registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz
+38 http GET https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz
+39 http 200 https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz
+40 silly lockFile 97fbf99a--grunt-contrib-jshint-0-10-0-tgz https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz
+41 silly lockFile 97fbf99a--grunt-contrib-jshint-0-10-0-tgz https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz
+42 silly lockFile af8d4102-grunt-contrib-jshint-0-10-0 grunt-contrib-jshint@0.10.0
+43 silly lockFile af8d4102-grunt-contrib-jshint-0-10-0 grunt-contrib-jshint@0.10.0
+44 silly lockFile c28ce841-grunt-contrib-jshint grunt-contrib-jshint@
+45 silly lockFile c28ce841-grunt-contrib-jshint grunt-contrib-jshint@
+46 silly resolved [ { name: 'grunt-contrib-jshint',
+46 silly resolved     description: 'Validate files with JSHint.',
+46 silly resolved     version: '0.10.0',
+46 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-jshint',
+46 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-jshint.git' },
+46 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-jshint/issues' },
+46 silly resolved     licenses: [ [Object] ],
+46 silly resolved     engines: { node: '>= 0.8.0' },
+46 silly resolved     scripts: { test: 'grunt test' },
+46 silly resolved     dependencies: { jshint: '~2.5.0', hooker: '~0.2.3' },
+46 silly resolved     devDependencies:
+46 silly resolved      { 'grunt-contrib-nodeunit': '~0.3.1',
+46 silly resolved        'grunt-contrib-internal': '~0.4.8',
+46 silly resolved        grunt: '~0.4.0' },
+46 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+46 silly resolved     keywords: [ 'gruntplugin' ],
+46 silly resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+46 silly resolved     _id: 'grunt-contrib-jshint@0.10.0',
+46 silly resolved     dist:
+46 silly resolved      { shasum: '57ebccca87e8f327af6645d8a3c586d4845e4d81',
+46 silly resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz' },
+46 silly resolved     _from: 'grunt-contrib-jshint@',
+46 silly resolved     _npmVersion: '1.4.3',
+46 silly resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+46 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+46 silly resolved     directories: {},
+46 silly resolved     _shasum: '57ebccca87e8f327af6645d8a3c586d4845e4d81',
+46 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz' } ]
+47 info install grunt-contrib-jshint@0.10.0 into /usr/local/lib
+48 info installOne grunt-contrib-jshint@0.10.0
+49 verbose lib/node_modules/grunt-contrib-jshint unbuild
+50 verbose tar unpack /Users/PA/.npm/grunt-contrib-jshint/0.10.0/package.tgz
+51 silly lockFile 90fe729f-ode-modules-grunt-contrib-jshint tar:///usr/local/lib/node_modules/grunt-contrib-jshint
+52 verbose lock tar:///usr/local/lib/node_modules/grunt-contrib-jshint /Users/PA/.npm/90fe729f-ode-modules-grunt-contrib-jshint.lock
+53 silly lockFile 59a4f948-ontrib-jshint-0-10-0-package-tgz tar:///Users/PA/.npm/grunt-contrib-jshint/0.10.0/package.tgz
+54 verbose lock tar:///Users/PA/.npm/grunt-contrib-jshint/0.10.0/package.tgz /Users/PA/.npm/59a4f948-ontrib-jshint-0-10-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/grunt-contrib-jshint'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/grunt-contrib-jshint']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/grunt-contrib-jshint',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/grunt-contrib-jshint',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 13.0.2
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "grunt-contrib-jshint"
+60 error cwd /Users/PA/Documents/nodeApp
+61 error node -v v0.10.33
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/grunt-contrib-jshint
+64 error fstream_path /usr/local/lib/node_modules/grunt-contrib-jshint
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/grunt-contrib-jshint'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]

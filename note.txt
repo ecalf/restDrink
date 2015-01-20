@@ -3,6 +3,9 @@
 	sudo npm install -g grunt-cli
 	sudo npm install -g grunt
 	sudo npm install -g grunt-init
+	sudo npm install -g grunt-contrib-uglify
+	sudo npm install -g grunt-contrib-concat
+	sudo npm install -g grunt-contrib-jshint
 	sudo npm install -g express
 
 3. 安装 git
@@ -14,7 +17,7 @@
 		git config --global user.name "ecalf"
 		git config --global user.email "727000110@qq.com
 
-	4.3 在 nodeApp 创建项目 restDrink 并创建保存 readme 文件
+	4.3 在 nodeApp 创建项目 restDrink 并创建保存 readme.md 文件
 		mkdir restDrink
 		cd restDrink
 		nano readme.md
@@ -23,5 +26,41 @@
 		git add .
 		git commit -m 'new project of restDrink is created!'
 
-	4.5 创建工作分支 local
-		
+	4.5 创建工作分支 local 并切换到该分支，平时在 local 分支开发，测试完毕合并到 master
+		git branch local
+		git checkout local
+
+5. 创建 github 库备份项目
+	5.1 在 github 上创建 nodeApp 库
+		参考： http://hi.baidu.com/ecalf830/item/970c00d7199e72ef55347f64
+
+	5.2 在本机创建 SSH 钥对
+		ssh-keygen  -C  "yourname@youremailhost.com" -f   ~/.ssh/github
+
+	5.3 将公钥复制出来添加进 github 账户，这里用账户级公钥，在项目管理的 Deploy keys 项可以添加项目公钥
+		下面 unix 命令将文件内容复制到鼠标剪切板
+		pbcopy < ~/.ssh/github.pub
+
+	5.4 建立本地与 github 的链接
+		ssh -T git@github.com
+
+		如果连接失败，先执行下面命令后重试
+		ssh-agent
+		ssh-add ~/.ssh/github
+		或 
+		ssh-add -K [path/to/your/ssh-key]
+		参考： http://segmentfault.com/q/1010000000835302/a-1020000000883441
+
+	5.5 创建 github 库在本地的别名为 github 远程连接，链接地址为项目的 SSH clone URL
+		git remote add github git@github.com:ecalf/restDrink.git
+
+	5.6 将本地项目提交到 github 上
+		git push github
+
+6. 构件项目包
+	6.1 在项目根目录下编辑 package.json 文件声明模块依赖
+	6.2 抽取构建命令，依赖模块将被抽取保存在项目根目录下的 node_modules 文件夹下
+
+
+
+
